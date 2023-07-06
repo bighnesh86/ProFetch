@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProFetch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>ProFetch</h1>
+
+    <form id="username-form">
+      <input type="text" id="username-input" placeholder="Enter GitHub username" required>
+      <button type="submit">Fetch</button>
+    </form>
+
+    <div id="profile-info">
+      <div class="profile-picture">
+        <img src="" alt="Profile Picture">
+      </div>
+      <div class="profile-details">
+        <h2 class="username"></h2>
+        <p class="bio"></p>
+        <h3>Location:</h3>
+        <p class="location"></p>
+        <h3>Public Repositories:</h3>
+        <p class="public-repos"></p>
+        <h3>Followers:</h3>
+        <p class="followers"></p>
+        <h3>Following:</h3>
+        <p class="following"></p>
+        <h3>Join Date:</h3>
+        <p class="join-date"></p>
+      </div>
+    </div>
+    
+
+    <div id="error-message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
